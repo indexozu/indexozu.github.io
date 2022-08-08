@@ -1,15 +1,1 @@
-*{font-family: sans-serif;}
-.item {
-    display: inline; 
-    padding: 7px;
-    font-size: 15px;
-    text-align: center;
-}
-.grid{
-    display: inline-grid;
-    margin: auto;
-    grid-template-columns: auto auto auto auto auto auto auto;
-    padding: 20px;
-    border-radius: 15px;
-    background-color: #bababa;
-}
+*{text-align: center; font-family: sans-serif;}
