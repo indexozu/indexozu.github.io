@@ -7,7 +7,7 @@
 }
 .grid{
     display: inline-grid;
-    margin: auto;
+    margin: 95%;
     grid-template-columns: auto auto auto auto auto auto auto;
     padding: 20px;
     border-radius: 15px;
