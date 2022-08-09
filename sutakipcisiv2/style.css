@@ -1,0 +1,22 @@
+*{font-family: sans-serif;}
+.item {
+    display: inline-flex; 
+    padding: 7px;
+    font-size: 15px;
+}
+@media only screen and (max-width: 560px) {
+    .item {
+        display: inline;
+        text-align: center;
+        width: 50%;
+    }
+  }
+.grid{
+    display: inline-grid;
+    margin: auto;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #bababa;
+}
+.marked{background-color: red}
