@@ -1,17 +1,12 @@
-let items = document.getElementsByClassName('day').length;
-    
-    function save() {	
-      for(let i = 1; i <= items; i++){
-        var status = document.getElementById(String(i));
-        localStorage.setItem('marked' + String(i), status.className = 'marked') ;
-      }
-    }
+let items = document.getElementsByClassName('day');
 
-    for(let i = 1; i <= items; i++){
-      if(localStorage.length > 0){
-        var status = document.getElementById(String(i));
-        var check = JSON.parse(localStorage.getItem('marked' + String(i)));
-        status.className = check;
+function mark() {
+  for(let i = 1; i <= items.length; i++){
+    var chk = document.getElementsByClassName('day')[i - 1];
+    chk.classList.toggle('mark');
     }
   }
-    window.addEventListener('change', save);
+
+  for(let i = 1; i <= items.length; i++){
+    document.getElementById(i).addEventListener("click", mark);
+  }

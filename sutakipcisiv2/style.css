@@ -1,9 +1,11 @@
 *{font-family: sans-serif;}
-.item {
+.day {
     display: inline-flex; 
     padding: 7px;
     font-size: 15px;
 }
+.mark {background-color: aqua;}
+
 @media only screen and (max-width: 560px) {
     .item {
         display: inline;
@@ -19,4 +21,3 @@
     border-radius: 15px;
     background-color: #bababa;
 }
-.marked{background-color: red}
