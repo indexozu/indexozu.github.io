@@ -16,6 +16,8 @@ function oneriGir(){
     var randomyan = Math.floor(Math.random() * yan.length)
     var oneri = `Bence bugün ${mekan[randommekan]} ye. Yanına da ${yan[randomyan]} iyi gider.`
     pyap.innerHTML = oneri
+
+    console.log('içerik yüklendi: ' + Date());
 }
 
 function icerigiKur() {
@@ -31,10 +33,9 @@ function icerigiKur() {
     geridon.innerHTML = 'megaliste geri dön'
 
 var elements = [h1yap, pyap, tekrar, geridon]
-    for (let i = 0; i <= elements.length; i++) {div.appendChild(elements[i])}
+    for (let n = 0; n <= elements.length; n++) {div.append(elements[n])}
 }
 
 window.addEventListener('DOMContentLoaded', (event) => {
     icerigiKur();
-    console.log('içerik yüklendi: ' + Date);
 });
