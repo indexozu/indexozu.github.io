@@ -34,4 +34,7 @@ var elements = [h1yap, pyap, tekrar, geridon]
     for (let i = 0; i <= elements.length; i++) {div.appendChild(elements[i])}
 }
 
-icerigiKur()
+window.addEventListener('DOMContentLoaded', (event) => {
+    icerigiKur();
+    console.log('içerik yüklendi: ' + Date);
+});
