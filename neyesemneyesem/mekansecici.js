@@ -33,7 +33,7 @@ function icerigiKur() {
     geridon.innerHTML = 'megaliste geri dön'
 
 var elements = [h1yap, pyap, tekrar, geridon]
-    for (let n = 0; n <= elements.length; n++) {div.append(elements[n])}
+    for (let n = 0; n < elements.length; n++) {div.append(elements[n])}
 }
 
 window.addEventListener('DOMContentLoaded', (event) => {
