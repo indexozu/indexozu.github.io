@@ -1,2 +1,3 @@
-# bthngn.github.io
-It's... some f'd up place where I put my practice projects and my monstrously worsening ~mental health~ codes in all of its glory.
+# batuhan.github.io
+_TR:_ Programlama ve web tasarım öğrenme sürecimde kodlarımı tuttuğum bir yer.
+_EN:_ A place where I keep my codes throughout my programming and web design learning process.
