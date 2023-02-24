@@ -1,2 +1,3 @@
 *{text-align: center; font-family: sans-serif;}
-.old{color: #0b0b0b;}
+a:hover{color: red; text-decoration:underline;}
+.old:link, .old:visited{color: #0b0b0b; text-decoration:none;}
