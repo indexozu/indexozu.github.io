@@ -1,0 +1,23 @@
+*{font-family: sans-serif;}
+label::before {
+    content: attr(data-day);
+    display: inline-block; 
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+
+label:hover {background-color: lightskyblue; border-radius: 25%;}
+
+.mark {background-color: cornflowerblue; border-radius: 25%;}
+
+.grid{
+    display: inline-grid;
+    margin: auto;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: azure;
+}

@@ -1,15 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Batuhan Gindeközü Practice Projects</title>
-  <meta name="viewport" content="width=device-width, initial-scale=0.8">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Batuhan GİNDEKÖZÜ</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    * {
+      font-family: 'Kanit', sans-serif;
+      font-weight: 300;
+      line-height: 1.15;
+    }
+    body {
+      display: flex;
+      width: calc(100vw-20px);
+      height: 98vh;
+      justify-content: center;
+      align-items: center;
+      position: relative; /* Reference point for positioning */
+    }
+    header {
+      display: block;
+      padding: 10px 25px;
+      box-shadow: 0 0 20px;
+      border-radius: 15px;
+      position: absolute; /* Allow absolute positioning */
+      cursor: grab; /* Change cursor on hover (optional) */
+      align-items: center;
+    }
+    h1 {
+      font-weight: 600;
+    }
+  </style>
 </head>
 <body>
-  <h1>Practice challenges</h1>
-  <a href="/qrcodecomponent">QR Code Component (frontendmentor)</a><br>
-  <a href="/sutakipcisi" class="old">Ağustos Ayı Su Takipçisi</a><br>
-  <a href="/sutakipcisiv2" class="old">Ağustos Ayı Su Takipçisi V2</a><br>
-  <a href="/neyesemneyesem" class="old">Ne yesem, ne yesem?</a>
+  <header id="draggable">
+    <h1>Batuhan GİNDEKÖZÜ</h1>
+    <h2>Teknolojiye merakı bitmez bir varoluş.</h2>
+  </header>
+  <script src="script.js"></script>
 </body>
 </html>
